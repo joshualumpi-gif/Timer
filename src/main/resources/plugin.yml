@@ -1,0 +1,17 @@
+name: Timer
+version: 1.0
+main: org.example.TimerPlugin
+api-version: 1.21
+authors: [YourName]
+description: A configurable timer plugin with API support.
+
+commands:
+  timer:
+    description: Main command for the timer configuration
+    usage: /timer [gui|start|pause|reset]
+    aliases: [t]
+
+permissions:
+  timer.use:
+    description: Allows using the timer
+    default: op
